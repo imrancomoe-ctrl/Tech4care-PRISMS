@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tech4Care Prisms - Student-led AI & behavioral science group building tech to improve health and accessibility." />
+  <title>Tech4Care Prisms</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #2132a7;
+      --accent-2: #5ea4ff;
+      --radius: 12px;
+      --max-width: 1100px;
+    }
+
+    *{box-sizing:border-box}
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: var(--bg);
+      color: #0f172a;
+    }
+
+    .container{max-width:var(--max-width);margin:0 auto;padding:0 20px}
+
+    header{
+      background: linear-gradient(90deg,var(--accent), #3956cd 50%);
+      color: white;
+      padding: 18px 0;
+    }
+
+    .nav-row{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:46px;height:46px;border-radius:8px;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;font-weight:700}
+
+    nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600}
+
+    /* HERO */
+    .hero{
+      background:linear-gradient(180deg, rgba(33,50,167,0.9), rgba(41,58,190,0.85));
+      padding:80px 0;
+      color:white;
+      text-align:center;
+    }
+
+    .hero h2{font-size:2.4rem;margin-bottom:10px}
+    .hero p{max-width:650px;margin:0 auto 20px}
+
+    .btn{
+      background:var(--accent-2);
+      color:white;
+      padding:10px 18px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    /* SECTIONS */
+    .section{padding:50px 0}
+    .section h3{text-align:center;margin-bottom:20px}
+
+    /* CARDS */
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:var(--card);
+      padding:18px;
+      border-radius:var(--radius);
+      box-shadow:0 6px 20px rgba(0,0,0,0.06);
+    }
+
+    .card h4{margin-bottom:8px}
+    .card p{color:var(--muted);font-size:0.95rem}
+
+    footer{
+      background:#0b1220;
+      color:#cbd5e1;
+      padding:30px 0;
+      margin-top:40px;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav-row">
+    <div class="brand">
+      <div class="logo">T4</div>
+      <h1>Tech4Care Prisms</h1>
+    </div>
+    <nav>
+      <a href="team.html">Team</a>
+      <a href="projects.html">Projects</a>
+      <a href="join.html">Join</a>
+      <a href="contact-tech4care.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h2>Building Technology That Improves Lives</h2>
+    <p>We use AI, robotics, and behavioral science to solve real-world problems in healthcare and sustainability.</p>
+    <a class="btn" href="projects.html">Explore Projects</a>
+    <a class="btn" href="projects.html">Discover our team</a>
+  </div>
+</section>
+
+<!-- WHAT WE DO -->
+<section class="section">
+  <div class="container">
+    <h3>What We Do</h3>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Tech4Care PRISMS develops innovative solutions using AI, sensors, and robotics to address challenges in healthcare, accessibility, and environmental sustainability. Our work focuses on real-world impact through research, experimentation, and ethical design.
+    </p>
+  </div>
+</section>
+
+<!-- PROJECT PREVIEW -->
+<section class="section">
+  <div class="container">
+    <h3>Featured Projects</h3>
+
+    <div class="grid">
+
+      <div class="card">
+        <h4>MindEcho</h4>
+        <p>Detects teen stress in minutes using AI voice and emotion analysis.</p>
+      </div>
+
+      <div class="card">
+        <h4>Psypher</h4>
+        <p>Uses AI and neuroscience to analyze behavior patterns and understand habit formation in ADHD.</p>
+      </div>
+
+      <div class="card">
+        <h4>Genetic Risk Analysis</h4>
+        <p>Uses genetic data to uncover how rare mutations contribute to brain disorders and shared pathways.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Tech4Care Prisms | tech4care@prismsus.org</p>
+</footer>
+
+</body>
+</html>
